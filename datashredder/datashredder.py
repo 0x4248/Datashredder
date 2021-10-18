@@ -1,8 +1,14 @@
+"""
+DataShredder - By awesomelewis2007
+A simple corruption engine made in python
+Github:https://github.com/awesomelewis2007/Datashredder
+"""
+
 import binascii
 import random
 from tqdm import tqdm
 
-VERSION = "0.1"
+VERSION = "0.1.2"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
     """### corrupts a file with a chosen corruption data
@@ -68,6 +74,7 @@ def random_data_corrupt(input_file,output_file,chance=1000):
 
 if __name__ == "__main__":
     print("Welcome to Datashredder Demo")
+    print("Version:"+VERSION)
     file_in = input("Input File>")
     file_out = input("Output File>")
     chance = input("chance of corruption>")
@@ -78,3 +85,4 @@ if __name__ == "__main__":
     if data == "":
         data == "00"        
     corrupt(input_file=file_in,output_file=file_out,chance=chance,data=data)
+    print("Done! Go have a look at your result.")
