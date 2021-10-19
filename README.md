@@ -15,6 +15,9 @@ Not Corrupted: 30 32 35 53 f0 72
 Corrupted: 30 **FF** 35 53 **FF** 72
 
 A random corruption would choose a random corruption data each iteration
+## Privacy
+![](https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Privacy.png)
+
 ## Examples
 ### Cats
 Each image has a corruption data of `00`
