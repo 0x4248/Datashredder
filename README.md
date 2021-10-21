@@ -1,6 +1,6 @@
 <h1>Datashredder</h1>
 <img src="https://github.com/awesomelewis2007/Datashredder/blob/main/Logos/logo_dark.png?raw=true" width="150"></img>
-
+<img src="https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Age_limit.png" width="50px"></img>
 Datashredder is a simple data corruption engine written in python. You can corrupt anything text, images and video.
 
 
@@ -17,7 +17,8 @@ Corrupted: 30 **FF** 35 53 **FF** 72
 A random corruption would choose a random corruption data each iteration
 ## Privacy
 ![](https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Privacy.png)
-
+## Age Rating
+![](https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Age_limit_2.png)
 ## Examples
 ### Cats
 Each image has a corruption data of `00`
