@@ -21,12 +21,10 @@ def corrupt(input_file,output_file,chance=1000,data=b"00"):
     split_file_hex = [file_hex[index : index + n] for index in range(0, len(file_hex), n)]
 
     file = ""
-    corruption_times = 0
     
     for i in tqdm(split_file_hex):
         if random.randint(1,chance) == 1:
             i = data
-            corruption_times = corruption_times + 1
         file = file+i.decode()
     f = open(output_file,"wb")
     f.write(binascii.unhexlify(file))

@@ -19,7 +19,6 @@ def swap_corrupt(input_file,output_file):
     split_file_hex = [file_hex[index : index + n] for index in range(0, len(file_hex), n)]
 
     file = ""
-    corruption_times = 0
     
 
     for i, ele in enumerate(split_file_hex[:-1]):

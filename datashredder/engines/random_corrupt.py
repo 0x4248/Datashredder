@@ -20,7 +20,6 @@ def random_data_corrupt(input_file,output_file,chance=1000):
     split_file_hex = [file_hex[index : index + n] for index in range(0, len(file_hex), n)]
 
     file = ""
-    corruption_times = 0
     
     for i in tqdm(split_file_hex):
         if random.randint(1,chance) == 1:
@@ -28,7 +27,6 @@ def random_data_corrupt(input_file,output_file,chance=1000):
             b = random.choice(["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"])
             c = a+b
             i = c.encode()
-            corruption_times = corruption_times + 1
         file = file+i.decode()
     f = open(output_file,"wb")
     f.write(binascii.unhexlify(file))
