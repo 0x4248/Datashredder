@@ -3,9 +3,6 @@ DataShredder - By awesomelewis2007
 A simple corruption engine made in python
 Github:https://github.com/awesomelewis2007/Datashredder
 """
-
-
-
 from engines import corrupt as basic_corrupt
 from engines import random_corrupt as rand_corrupt
 from engines import swap_corrupt as swp_corrupt
@@ -65,7 +62,6 @@ if __name__ == "__main__":
         if choice == "3":
             break
         print("Enter a choice:1,2 or 3 not",choice)
-
     file_in = input("Input File>")
     file_out = input("Output File>")
 
@@ -84,11 +80,15 @@ if __name__ == "__main__":
     if choice == "1":
         data = input("corruption data>").encode()
         if data == "":
-            data == "00"       
+            data == "00"  
+    print("starting corruption:")
+    print("{\n    input file:'"+file_in+"',\n    "+"output file:'"+file_out+"'\n}")    
+    print("--------------------") 
     if choice == "1":
         corrupt(input_file=file_in,output_file=file_out,chance=chance,data=data)
     if choice == "2":
         random_corrupt(input_file=file_in,output_file=file_out,chance=chance)
     if choice == "3":
         swap_corrupt(input_file=file_in,output_file=file_out)
+
     print("Corrupted go have a look at your result at: "+file_in)
