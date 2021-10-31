@@ -2,15 +2,6 @@ import binascii
 import random
 from tqdm import tqdm
 def swap_corrupt(input_file,output_file):
-    """corrupts a file with swapping the next piece of data 
-    e.g:
-    31 32 44 35 36 37 38 39 30 --> 32 44 35 36 37 38 39 30 
-
-    This will corrupt the entire file
-    Args:
-        input_file ([str]): [input file]
-        output_file ([str]): [output file]
-    """
     with open(input_file, 'rb') as f:
         content = f.read()
     file_hex = binascii.hexlify(content)

@@ -12,13 +12,43 @@ from engines import corrupt as basic_corrupt
 from engines import random_corrupt as rand_corrupt
 from engines import swap_corrupt as swp_corrupt
 
-VERSION = "0.1.7"
+VERSION = "0.1.8"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
+    """### corrupts a file with a chosen corruption data
+    e.g:
+    31 32 44 35 36 37 38 39 30 --> 31 FF 44 35 FF 37 FF FF 30
+
+    In this example FF is the chosen corruption data
+    Args:
+        input_file ([str]): [input file]
+        output_file ([str]): [output file]
+        chance (int, optional): [This is the chance of the next byte of data being corrupted if i set it to 2 t is 1 in 2 chance of the next byte being corrupted]. Defaults to 1000.
+        data (bytes, optional): [Data used to corrupt the image e.g 2B will be changed to 20 if i set this value to 20. this MUST be set is bytes]. Defaults to b"00".
+    """
     basic_corrupt.corrupt(input_file,output_file,chance,data)
 def random_corrupt(input_file,output_file,chance=1000):
+    """corrupts a file with random data
+    e.g:
+    31 32 44 35 36 37 38 39 30 --> 31 0A 44 35 F0 37 00 FA 30
+
+    In this example FF is the chosen corruption data
+    Args:
+        input_file ([str]): [input file]
+        output_file ([str]): [output file]
+        chance (int, optional): [This is the chance of the next byte of data being corrupted if i set it to 2 t is 1 in 2 chance of the next byte being corrupted]. Defaults to 1000.
+    """
     rand_corrupt.random_data_corrupt(input_file,output_file,chance)
 def swap_corrupt(input_file,output_file):
+    """corrupts a file with swapping the next piece of data 
+    e.g:
+    31 32 44 35 36 37 38 39 30 --> 32 44 35 36 37 38 39 30 
+
+    This will corrupt the entire file
+    Args:
+        input_file ([str]): [input file]
+        output_file ([str]): [output file]
+    """
     swp_corrupt.swap_corrupt(input_file,output_file)
 
 if __name__ == "__main__":
