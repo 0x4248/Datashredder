@@ -7,7 +7,7 @@ from engines import corrupt as basic_corrupt
 from engines import random_corrupt as rand_corrupt
 from engines import swap_corrupt as swp_corrupt
 
-VERSION = "0.1.9"
+VERSION = "0.1.10"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
     """### corrupts a file with a chosen corruption data
