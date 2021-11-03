@@ -7,7 +7,7 @@ from engines import corrupt as basic_corrupt
 from engines import random_corrupt as rand_corrupt
 from engines import swap_corrupt as swp_corrupt
 
-VERSION = "0.1.10"
+VERSION = "0.2.0"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
     """### corrupts a file with a chosen corruption data
@@ -64,7 +64,16 @@ if __name__ == "__main__":
         print("Enter a choice:1,2 or 3 not",choice)
     file_in = input("Input File>")
     file_out = input("Output File>")
-
+    if file_in == file_out:
+        print("Warning: Datashredder will rewrite "+file_in+". Do you want to contine?")
+        while True:
+            consent = input("Yes or No>")
+            if consent.upper() == "NO":
+                print("OK, quitting")
+                exit()
+            if consent.upper() == "YES":
+                break
+            print("Enter a choice: Yes or No not",consent)
     if choice == "1":
         chance = input("chance of corruption>")
         if chance == "":
@@ -81,8 +90,8 @@ if __name__ == "__main__":
         data = input("corruption data>").encode()
         if data == "":
             data == "00"  
-    print("starting corruption:")
     print("{\n    input file:'"+file_in+"',\n    "+"output file:'"+file_out+"'\n}")    
+    print("starting corruption:")
     print("--------------------") 
     if choice == "1":
         corrupt(input_file=file_in,output_file=file_out,chance=chance,data=data)
