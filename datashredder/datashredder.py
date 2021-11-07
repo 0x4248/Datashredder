@@ -7,10 +7,10 @@ from engines import corrupt as basic_corrupt
 from engines import random_corrupt as rand_corrupt
 from engines import swap_corrupt as swp_corrupt
 
-VERSION = "0.2.0"
+VERSION = "0.2.1"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
-    """### corrupts a file with a chosen corruption data
+    """corrupts a file with a chosen corruption data
     e.g:
     31 32 44 35 36 37 38 39 30 --> 31 FF 44 35 FF 37 FF FF 30
 
@@ -69,11 +69,11 @@ if __name__ == "__main__":
         while True:
             consent = input("Yes or No>")
             if consent.upper() == "NO":
-                print("OK, quitting")
+                print("OK, quitting no changes were made")
                 exit()
             if consent.upper() == "YES":
                 break
-            print("Enter a choice: Yes or No not",consent)
+            print("Enter a choice: Yes or No")
     if choice == "1":
         chance = input("chance of corruption>")
         if chance == "":
@@ -90,9 +90,11 @@ if __name__ == "__main__":
         data = input("corruption data>").encode()
         if data == "":
             data == "00"  
+
     print("{\n    input file:'"+file_in+"',\n    "+"output file:'"+file_out+"'\n}")    
     print("starting corruption:")
     print("--------------------") 
+
     if choice == "1":
         corrupt(input_file=file_in,output_file=file_out,chance=chance,data=data)
     if choice == "2":
