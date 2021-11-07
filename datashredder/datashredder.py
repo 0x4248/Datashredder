@@ -7,6 +7,8 @@ from engines import corrupt as basic_corrupt
 from engines import random_corrupt as rand_corrupt
 from engines import swap_corrupt as swp_corrupt
 
+import sys
+
 VERSION = "0.2.1"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
@@ -47,6 +49,10 @@ def swap_corrupt(input_file,output_file):
     swp_corrupt.swap_corrupt(input_file,output_file)
 
 if __name__ == "__main__":
+    for i in sys.argv:
+        if i.upper() == "-V":
+            print(VERSION)
+            sys.exit()
     print("Welcome to Datashredder Demo")
     print("Version:"+VERSION)
     print("Please chose a corruption method")
@@ -70,7 +76,7 @@ if __name__ == "__main__":
             consent = input("Yes or No>")
             if consent.upper() == "NO":
                 print("OK, quitting no changes were made")
-                exit()
+                sys.exit()
             if consent.upper() == "YES":
                 break
             print("Enter a choice: Yes or No")
