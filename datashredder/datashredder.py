@@ -9,7 +9,7 @@ from engines import swap_corrupt as swp_corrupt
 
 import sys
 
-VERSION = "0.2.2"
+VERSION = "0.2.3"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
     """corrupts a file with a chosen corruption data
