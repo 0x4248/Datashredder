@@ -8,3 +8,4 @@ run:
 	./install_linux
 	echo "Windows Build"
 	./install_win
+	python3 datashredder.py
