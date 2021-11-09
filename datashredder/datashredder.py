@@ -1,5 +1,6 @@
 """
-DataShredder - By awesomelewis2007
+DataShredder Main module 
+Owner: awesomelewis2007
 A simple corruption engine made in python
 Github:https://github.com/awesomelewis2007/Datashredder
 """
@@ -9,7 +10,7 @@ from engines import swap_corrupt as swp_corrupt
 
 import sys
 
-VERSION = "0.2.8"
+VERSION = "0.2.9"
 
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
     """corrupts a file with a chosen corruption data
