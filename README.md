@@ -1,6 +1,14 @@
 <h1>Datashredder</h1>
 <img src="https://github.com/awesomelewis2007/Datashredder/blob/main/Logos/logo_dark.png?raw=true" width="150"></img>
-<img src="https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Age_limit.png" width="50px"></img>
+
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/awesomelewis2007/Datashredder)
+[![GitHub license](https://badgen.net/github/license/awesomelewis2007/Datashredder)](https://github.com/awesomelewis2007/Datashredder/blob/master/LICENSE)
+[![Github tag](https://badgen.net/github/tag/awesomelewis2007/Datashredder)](https://github.com/awesomelewis2007/Datashredder/tags/)
+[![C](https://img.shields.io/badge/--1177AA?logo=c&logoColor=FFFFFF)]()
+[![Python](https://img.shields.io/badge/--1177AA?logo=python&logoColor=FFFFFF)]()
+
+
+
 Datashredder is a simple data corruption engine written in python. You can corrupt anything text, images and video.
 
 
