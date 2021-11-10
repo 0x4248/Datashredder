@@ -3,7 +3,7 @@
 // Github:https://github.com/awesomelewis2007/Datashredder
 #include<stdio.h>
 #include<string.h>
-void main(){
+int main(){
     printf("This is the Datashredder help\n");
     printf("==========\n");
     printf("Datashredder is a simple data corruption engine written in python. You can corrupt anything text, images and video.\n");
@@ -14,5 +14,4 @@ void main(){
     printf("A random corruption would choose a random corruption data each iteration\n");
     printf("==========\n");
     printf("Read more at:https://github.com/awesomelewis2007/Datashredder\n");
-    return 0;
 }
