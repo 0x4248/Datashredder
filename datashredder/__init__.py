@@ -4,9 +4,9 @@ Owner: awesomelewis2007
 A simple corruption engine made in python
 Github:https://github.com/awesomelewis2007/Datashredder
 """
-from .engines.corrupt import corrupt
-from .engines.random_corrupt import random_data_corrupt
-from .engines.swap_corrupt import swap_corrupt
+from .corrupt import corrupt
+from .random_corrupt import random_data_corrupt
+from .swap_corrupt import swap_corrupt
 
 import sys
 
