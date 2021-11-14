@@ -10,7 +10,7 @@ from .engines.swap_corrupt import swap_corrupt
 
 import sys
 
-VERSION = "0.2.12"
+VERSION = "0.2.13"
 
 if __name__ == "__main__":
     for i in sys.argv:
