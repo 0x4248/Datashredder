@@ -23,10 +23,14 @@ Not Corrupted: 30 32 35 53 f0 72
 Corrupted: 30 **FF** 35 53 **FF** 72
 
 A random corruption would choose a random corruption data each iteration
+## Installing
+You can install datashredder using pip
+`pip install Datashredder`
+
+[Pypi Project link](https://pypi.org/project/Datashredder/)
+
 ## Privacy
 ![](https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Privacy.png)
-## Age Rating
-![](https://raw.githubusercontent.com/awesomelewis2007/Datashredder/main/Documentation/Age_limit_2.png)
 ## Examples
 ### Cats
 Each image has a corruption data of `00`
