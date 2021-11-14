@@ -10,8 +10,9 @@ setuptools.setup(
     author_email='awesomelewis2007@gmail.com',
     packages=['datashredder'],
     install_requires=[''],
-    version="0.2.14",
+    version="0.2.15",
     license='GNU',
     long_description=long_description,
     long_description_content_type="text/markdown",
+    description='A simple data corruption engine written in python'
 )
