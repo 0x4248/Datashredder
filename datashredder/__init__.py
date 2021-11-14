@@ -10,15 +10,10 @@ from .engines.swap_corrupt import swap_corrupt
 
 import sys
 
-VERSION = "0.2.13"
+
 
 if __name__ == "__main__":
-    for i in sys.argv:
-        if i.upper() == "-V":
-            print(VERSION)
-            sys.exit()
     print("Welcome to Datashredder Demo")
-    print("Version:"+VERSION)
     print("Please chose a corruption method")
     print("Type 1 to use basic corrupt")
     print("Type 2 to use random basic corrupt")
