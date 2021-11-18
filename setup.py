@@ -10,7 +10,7 @@ setuptools.setup(
     author_email='awesomelewis2007@gmail.com',
     packages=['datashredder'],
     install_requires=[''],
-    version="0.2.16",
+    version="0.2.17",
     license='GNU',
     long_description=long_description,
     long_description_content_type="text/markdown",

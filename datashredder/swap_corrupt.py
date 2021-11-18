@@ -4,7 +4,6 @@ Owner: awesomelewis2007
 Github:https://github.com/awesomelewis2007/Datashredder
 """
 import binascii
-from tqdm import tqdm
 def swap_corrupt(input_file,output_file):
     with open(input_file, 'rb') as f:
         content = f.read()

@@ -5,7 +5,6 @@ Github:https://github.com/awesomelewis2007/Datashredder
 """
 import binascii
 import random
-from tqdm import tqdm
 def corrupt(input_file,output_file,chance=1000,data=b"00"):
     with open(input_file, 'rb') as f:
         content = f.read()
@@ -16,7 +15,7 @@ def corrupt(input_file,output_file,chance=1000,data=b"00"):
 
     file = ""
     
-    for i in tqdm(split_file_hex):
+    for i in split_file_hex:
         if random.randint(1,chance) == 1:
             i = data
         file = file+i.decode()

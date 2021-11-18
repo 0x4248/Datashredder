@@ -5,7 +5,6 @@ Github:https://github.com/awesomelewis2007/Datashredder
 """
 import binascii
 import random
-from tqdm import tqdm
 def random_data_corrupt(input_file,output_file,chance=1000):
     with open(input_file, 'rb') as f:
         content = f.read()
@@ -16,7 +15,7 @@ def random_data_corrupt(input_file,output_file,chance=1000):
 
     file = ""
     
-    for i in tqdm(split_file_hex):
+    for i in split_file_hex:
         if random.randint(1,chance) == 1:
             a = random.choice(["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"])
             b = random.choice(["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"])
