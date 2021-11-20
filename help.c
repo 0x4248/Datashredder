@@ -14,4 +14,5 @@ int main(){
     printf("A random corruption would choose a random corruption data each iteration\n");
     printf("==========\n");
     printf("Read more at:https://github.com/awesomelewis2007/Datashredder\n");
+    return 0;
 }
