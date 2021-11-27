@@ -3,6 +3,8 @@ DataShredder Main module
 Owner: awesomelewis2007
 A simple corruption engine made in python
 Github:https://github.com/awesomelewis2007/Datashredder
+
+Run the demo using demo()
 """
 from .corrupt import corrupt
 from .random_corrupt import random_data_corrupt
@@ -12,7 +14,7 @@ import sys
 
 
 
-if __name__ == "__main__":
+def demo():
     print("Welcome to Datashredder Demo")
     print("Please chose a corruption method")
     print("Type 1 to use basic corrupt")
