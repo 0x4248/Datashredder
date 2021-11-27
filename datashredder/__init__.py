@@ -13,8 +13,9 @@ from .swap_corrupt import swap_corrupt
 import sys
 
 
-
 def demo():
+    """This is the demo script to run it use `datashredder.demo`
+    """
     print("Welcome to Datashredder Demo")
     print("Please chose a corruption method")
     print("Type 1 to use basic corrupt")
@@ -29,8 +30,8 @@ def demo():
         if choice == "3":
             break
         print("Enter a choice:1,2 or 3 not",choice)
-    file_in = input("Input File>")
-    file_out = input("Output File>")
+    file_in = input("Enter input file location>")
+    file_out = input("Enter output file location>")
     if file_in == file_out:
         print("Warning: Datashredder will rewrite "+file_in+". Do you want to contine?")
         while True:
