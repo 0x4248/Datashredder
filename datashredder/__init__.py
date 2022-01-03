@@ -61,7 +61,6 @@ def demo():
 
     print("{\n    input file:'"+file_in+"',\n    "+"output file:'"+file_out+"'\n}")    
     print("starting corruption:")
-    print("--------------------") 
 
     if choice == "1":
         corrupt(input_file=file_in,output_file=file_out,chance=chance,data=data)
@@ -70,4 +69,4 @@ def demo():
     if choice == "3":
         swap_corrupt(input_file=file_in,output_file=file_out)
 
-    print("Corrupted go have a look at your result at: "+file_in)
+    print("Corrupted the file go have a look at your result at: "+file_in)
