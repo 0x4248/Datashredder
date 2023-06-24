@@ -1,0 +1,16 @@
+{
+    "name": "Datashredder",
+    "description": "A simple data corruption engine written in python.",
+    "version": "",
+    "main_file": "none",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "https://www.github.com/awesomelewis2007/Datashredder",
+    "email": "none",
+    "languages": [
+        "c++",
+        "python",
+        "c"
+    ],
+    "actions": {}
+}
