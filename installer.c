@@ -1,6 +1,6 @@
 // Datashredder Simple installer
-// Owner: awesomelewis2007
-// Github:https://github.com/awesomelewis2007/Datashredder
+// Owner: lewisevans2007
+// Github:https://github.com/lewisevans2007/Datashredder
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

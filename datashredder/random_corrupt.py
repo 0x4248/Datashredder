@@ -1,7 +1,7 @@
 """
 DataShredder random corrupt module 
-Owner: awesomelewis2007
-Github:https://github.com/awesomelewis2007/Datashredder
+Owner: lewisevans2007
+Github:https://github.com/lewisevans2007/Datashredder
 """
 import binascii
 import random

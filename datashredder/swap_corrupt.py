@@ -1,7 +1,7 @@
 """
 DataShredder swap corrupt module 
-Owner: awesomelewis2007
-Github:https://github.com/awesomelewis2007/Datashredder
+Owner: lewisevans2007
+Github:https://github.com/lewisevans2007/Datashredder
 """
 import binascii
 def swap_corrupt(input_file,output_file):
