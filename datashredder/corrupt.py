@@ -1,7 +1,7 @@
 """
 DataShredder corrupt module 
-Owner: lewisevans2007
-Github:https://github.com/lewisevans2007/Datashredder
+Owner: 0x4248
+Github:https://github.com/0x4248/Datashredder
 """
 import binascii
 import random

@@ -1,9 +1,9 @@
 <h1>Datashredder</h1>
-<img src="https://github.com/lewisevans2007/Datashredder/blob/main/Logos/logo_dark.png?raw=true" width="150"></img>
+<img src="https://github.com/0x4248/Datashredder/blob/main/Logos/logo_dark.png?raw=true" width="150"></img>
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/lewisevans2007/Datashredder)
-[![GitHub license](https://badgen.net/github/license/lewisevans2007/Datashredder)](https://github.com/lewisevans2007/Datashredder/blob/master/LICENCE)
-[![Github tag](https://badgen.net/github/tag/lewisevans2007/Datashredder)](https://github.com/lewisevans2007/Datashredder/tags/)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/0x4248/Datashredder)
+[![GitHub license](https://badgen.net/github/license/0x4248/Datashredder)](https://github.com/0x4248/Datashredder/blob/master/LICENCE)
+[![Github tag](https://badgen.net/github/tag/0x4248/Datashredder)](https://github.com/0x4248/Datashredder/tags/)
 [![C](https://img.shields.io/badge/--1177AA?logo=c&logoColor=FFFFFF)]()
 [![Python](https://img.shields.io/badge/--1177AA?logo=python&logoColor=FFFFFF)]()
 
@@ -30,21 +30,21 @@ You can install datashredder using pip
 [Pypi Project link](https://pypi.org/project/Datashredder/)
 
 ## Privacy
-![](https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Privacy.png)
+![](https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Privacy.png)
 ## Examples
 ### Cats
 Each image has a corruption data of `00`
 
 There is `206824` iterations on this image
 #### Not corrupted image
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Test%20images/cat.jpg" width="200"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Test%20images/cat.jpg" width="200"></img>
 #### Corrupted images
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Corrupted%20images/Cat_39_corruptions.jpg" width="150"></img>
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Corrupted%20images/Cat_133_corruptions.jpg" width="150"></img>
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Corrupted%20images/Cat_200_corruptions.jpg" width="150"></img>
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Corrupted%20images/Cat_432_corruptions.jpg" width="150"></img>
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Corrupted%20images/Cat_1020_corruptions.jpg" width="150"></img>
-<img src="https://raw.githubusercontent.com/lewisevans2007/Datashredder/main/Documentation/Corrupted%20images/Cat_2069_corruptions.jpg" width="150"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Corrupted%20images/Cat_39_corruptions.jpg" width="150"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Corrupted%20images/Cat_133_corruptions.jpg" width="150"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Corrupted%20images/Cat_200_corruptions.jpg" width="150"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Corrupted%20images/Cat_432_corruptions.jpg" width="150"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Corrupted%20images/Cat_1020_corruptions.jpg" width="150"></img>
+<img src="https://raw.githubusercontent.com/0x4248/Datashredder/main/Documentation/Corrupted%20images/Cat_2069_corruptions.jpg" width="150"></img>
 
 | Image # | Chance | Corruptions |
 |---------|--------|-------------|

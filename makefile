@@ -1,5 +1,5 @@
-# By lewisevans2007
-# Github:https://github.com/lewisevans2007/Datashreddermake
+# By 0x4248
+# Github:https://github.com/0x4248/Datashreddermake
 compile-all:
 	gcc installer.c -o install_linux
 	x86_64-w64-mingw32-gcc -g -o install_win.exe installer.c

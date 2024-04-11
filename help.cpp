@@ -1,6 +1,6 @@
 // Datashredder help 
-// Owner: lewisevans2007
-// Github:https://github.com/lewisevans2007/Datashredder
+// Owner: 0x4248
+// Github:https://github.com/0x4248/Datashredder
 #include <iostream>
 #include <string>
 #include <limits>
@@ -21,6 +21,6 @@ int main(){
     cout << "You can install datashredder using pip \npip install Datashredder\n";
     cout << "\033[0;36m==========\n";
     cout << "\033[0;37mThe next section contains images\n";
-    cout << "Read more at:https://github.com/lewisevans2007/Datashredder\n";
+    cout << "Read more at:https://github.com/0x4248/Datashredder\n";
     return 0;
 }

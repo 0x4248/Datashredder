@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='Datashredder',
-    url='https://github.com/lewisevans2007/Datashredder/',
+    url='https://github.com/0x4248/Datashredder/',
     author='Lewis Evans',
-    author_email='lewisevans2007@gmail.com',
+    author_email='0x4248@gmail.com',
     packages=['datashredder'],
     install_requires=[''],
     version="0.2.21",

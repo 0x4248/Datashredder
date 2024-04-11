@@ -1,8 +1,8 @@
 """
 DataShredder Main module 
-Owner: lewisevans2007
+Owner: 0x4248
 A simple corruption engine made in python
-Github:https://github.com/lewisevans2007/Datashredder
+Github:https://github.com/0x4248/Datashredder
 
 Run the demo using demo()
 """
